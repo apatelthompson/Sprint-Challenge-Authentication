@@ -1,0 +1,12 @@
+* What is the purpose of using/sessions/?
+* Simple way to store data for a user with a unique session ID. This allows us to store data that we want to preserve across page loads. Session IDs can be sent to browser using cookies and the ID is used to get the session data.
+
+* What does bcrypt do to help us store passwords in a secure manner.
+* bcrypt allows us to hash passwords with a salt - adding additional random data that makes each password hash unique.
+
+
+* What does bcrypt do to slow down attackers?
+* Bcrypt makes it super hard and slow for attackers to be able to figure out the passwords using a rainbow table. Plus we’re able to increase the cost of hashing as computers become more powerful.
+
+* What are the three parts of the JSON Web Token?
+	* header, payload, signature
